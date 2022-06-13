@@ -9,3 +9,4 @@
 [![webshoppingapigw](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webshoppingapigw.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webshoppingapigw.yml)
 [![webstatus](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webstatus.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webstatus.yml)
 [![Build](https://github.com/Mitagki/Tonis-Garden/actions/workflows/build.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Mitagki_Tonis-Garden&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Mitagki_Tonis-Garden)
