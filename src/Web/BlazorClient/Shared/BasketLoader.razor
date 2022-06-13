@@ -1,0 +1,24 @@
+﻿@inject UserBasket _basket
+
+@code {
+
+    private bool _basketLoaded;
+
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; } = null!;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var user = (await AuthenticationStateTask).User;
+
+        Console.WriteLine($"BasketLoader -> TryLoadBasket [User authenticated: {user.Identity!.IsAuthenticated}, Basket loaded: {_basketLoaded}]");
+
+        if (user.Identity.IsAuthenticated && !_basketLoaded)
+        {
+            Console.WriteLine($"BasketLoader -> TryLoadBasket -> Loading basket");
+            await _basket.LoadAsync();
+
+            _basketLoaded = true;
+        }
+    }
+}
