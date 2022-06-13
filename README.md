@@ -8,3 +8,4 @@
 [![webshoppingagg](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webshoppingagg.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webshoppingagg.yml)
 [![webshoppingapigw](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webshoppingapigw.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webshoppingapigw.yml)
 [![webstatus](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webstatus.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/webstatus.yml)
+[![Build](https://github.com/Mitagki/Tonis-Garden/actions/workflows/build.yml/badge.svg)](https://github.com/Mitagki/Tonis-Garden/actions/workflows/build.yml)
